@@ -174,6 +174,7 @@ def print_report():
     win32api.ShellExecute(0, "print", temp_file, None, ".", 0)
 
 root = tk.Tk()
+root.iconbitmap("app.ico")
 root.title('检查报告生成工具')
 
 # 定义性别变量
